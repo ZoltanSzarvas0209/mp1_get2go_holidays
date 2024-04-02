@@ -1,5 +1,5 @@
 
-[logo]: assets/images/get2goholidays_logo.png "logo"
+[logo]: ../mp1_get2go_holidays/assets/images/get2goholidays_logo.png "logo"
 
 # Get2Go Holidays
 ---
