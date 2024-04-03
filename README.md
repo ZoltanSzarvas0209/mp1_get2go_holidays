@@ -100,7 +100,21 @@ work flow graph/ image added here
 
 * Wireframes:
 
-wireframes added here 
+<details><summary>Home</summary>
+<img src="assets/images/index.html.png">
+</details>
+
+<details><summary>Destinations</summary>
+<img src="assets/images/deals.html.png">
+</details>
+
+<details><summary>Enquiry</summary>
+<img src="assets/images/enquiry.html.png">
+</details>
+
+<details><summary>Landing Page</summary>
+<img src="assets/images/Landing PAge.png">
+</details>
 
 
 
