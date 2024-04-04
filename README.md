@@ -123,9 +123,22 @@ work flow graph/ image added here
 
 ## Media
 
-all photos , videos used from external source referenced here
+Below are the links to all images used for the brochure and throughout the website.
 
+Pixabay: https://pixabay.com/images/search/webpage/
 
+https://pixabay.com/photos/barbados-word-text-handwriting-70753/
+https://pixabay.com/photos/indonesia-bali-ulun-danu-1578647/
+https://pixabay.com/photos/eiffel-tower-paris-france-3349075/  
+https://pixabay.com/photos/tiber-bridge-rome-bridge-italy-2263361/
+https://pixabay.com/photos/church-santorini-d-greece-island-2020258/
+https://pixabay.com/photos/mykonos-santorini-paros-greece-7317855/
+https://pixabay.com/photos/bridge-manhattan-brooklyn-new-york-370542/
+https://pixabay.com/photos/peru-mountains-machu-picchu-2135770/
+https://pixabay.com/photos/hollywood-united-states-los-angeles-573444/
+https://pixabay.com/photos/seychelles-indian-ocean-vacations-215253/
+https://pixabay.com/photos/sydney-opera-house-sydney-354375/
+https://pixabay.com/photos/beach-resort-jetty-pier-boardwalk-666122
 
 ## Credits
 
