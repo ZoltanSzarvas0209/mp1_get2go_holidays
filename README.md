@@ -1,8 +1,6 @@
 
-![logo]: (assets/images/get2goholidays_logo.png "logo")
+![logo](assets/images/get2goholidays_logo.png)
 
-# Get2Go Holidays
----
 ## Introduction
 
 Hi there, 
@@ -11,7 +9,7 @@ Get2Go Holidays is a made up travel agent website. It was created for educationa
 
 It is a static website developed using html, css and bootstrap. The content of the site is limited for simplicity , however fully scalable for future extensions.
 
----
+
 
 ## UX
 
@@ -37,7 +35,8 @@ The choosen project is a travel agent's website to advertise and generate leads 
 
 
 * additional resources
-    * fonhttps://fontawesome.com/search?o=r&m=free&s=solid
+    * FontAwesome: fonhttps://fontawesome.com/search?o=r&m=free&s=solid  - used for icons throughout the site
+    * ChatGPT: https://chat.openai.com/   - used to create content for the brochure
 
 ### Objective
 
@@ -56,6 +55,7 @@ Websites and travel agents visisted for research:
 * [TUI](https://www.tui.co.uk/)
 * [Loveholidays](https://www.loveholidays.com/)
 * [On the beach holidays](https://www.onthebeach.co.uk/)
+* [LuxuryEscapes](https://luxuryescapes.com/gb)
 
 ### Target Audience
 
@@ -84,6 +84,9 @@ Viabaility Chart: Insert table here ( viability vs importance )
     * Main Page: index.html - present an overall look of the site, showcasing a hero image with eye catching holiday pictures and call to action buttons( see deals), which also provide an alternative way( other than nav bar) to navigate to the holidays.html page. The main page also includes a section of reviews and reasosns to book with us.
     * Deals Page: presents main holiday categories for user such as multi-destination or bucket-list holidays with large clickable pictures/icons that navigates the user to the second section of the page where all actual deals are avaialble. All deals containers include a see deal button that has a pop-up window with the holiday details.
     * Enquiry Page: The enquiry page's main section have a form , where users can submit holiday requests/questions based on prefered dates, destination and budget. Upon submitting a form a thank you landing page is presented with navigation to return to main site.
+    * Landing Page: A thank you page letting customers knnow that their enquiry form had been successfully submitted and present an additional button to return to home page.
+ 
+    * Download Brochure: clickable link to download a brochure with all existing deals. The feature presented in multiple location, namely once in the navigation bar and once in the footer area.
 
 * Design Choices:
 
@@ -96,19 +99,33 @@ work flow graph/ image added here
 
 * Wireframes:
 
-wireframes added here 
+<details><summary>Home</summary>
+<img src="assets/images/index.html.png">
+</details>
 
----
+<details><summary>Destinations</summary>
+<img src="assets/images/deals.html.png">
+</details>
+
+<details><summary>Enquiry</summary>
+<img src="assets/images/enquiry.html.png">
+</details>
+
+<details><summary>Landing Page</summary>
+<img src="assets/images/Landing PAge.png">
+</details>
+
+
 
 ## Testing/Bugs/Fixes
 
----
+
 
 ## Media
 
 all photos , videos used from external source referenced here
 
----
+
 
 ## Credits
 
