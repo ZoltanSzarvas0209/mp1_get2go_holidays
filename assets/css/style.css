@@ -1,0 +1,55 @@
+
+
+
+/*-----------------------------Colors---*/
+
+.bg-color {
+    background-color: #c3c3c3;
+}
+
+.tel_no a {
+    color:#b31625;
+}
+
+.nav a {
+    color: #b31625;
+}
+
+
+
+/*-----------------------------Heading---*/
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/get2goholidays_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+.tel_no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.tel_no a {
+    font-size: 30px;
+    margin: 4px;
+}
+
+.nav {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+}
