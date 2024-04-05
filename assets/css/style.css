@@ -1,10 +1,16 @@
 
 
 
-/*-----------------------------Colors---*/
+/*-----------------------------General Classes---*/
 
 .bg-color {
     background-color: #b10303;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -57,14 +63,12 @@ header {
     text-decoration:none;
     height: 120px;
     font-size: 22px;
-    margin: 8px;
     text-align: center;
 }
 
 .menuitem a:hover {
     color: #c5b720;
 }
-
 
 /*-----------------------------Footer---*/
 
@@ -86,9 +90,81 @@ header {
 }
 
 .footer-common p a:hover {
-    color:#c5b720
+    color:#c5b720;
 }
 
 .footer-common i:hover {
     color: #c5b720;
+}
+
+
+/*-----------------------------HomePage-HeroImage---*/
+
+
+
+/*-----------------------------HomePage-Testimonials---*/
+
+.testimonials-header{
+    font-size: 50px;
+    font-weight: bold;
+    color: #b10303;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align:-webkit-center;
+    padding-top:20px;
+}
+
+.testimonials {
+    width: 100%;
+    height: 400px;
+}
+
+.review {
+    background-color: rgba(255,0,0,0.2);
+    width: 240px;
+    height: 240px;
+    border: solid;
+    border-radius: 10%;
+    border-color: #b10303;
+    margin: 20px;
+}
+
+.review p {
+    text-align:center;
+    text-transform:uppercase;
+    padding-top: 20px;
+}
+
+
+
+
+
+/*-----------------------------HomePage-Why-book-with-us---*/
+
+.why-book-with-us-header {
+    font-size: 50px;
+    font-weight: bold;
+    color: #b10303;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align:-webkit-center;
+    padding:20px;
+}
+
+.why-book-with-us {
+    width: 100%;
+}
+
+.valueitem {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.valueitem i {
+    display: block;
+    padding: 10px;
+    font-size:50px;
+    color:#c5b720;
 }
