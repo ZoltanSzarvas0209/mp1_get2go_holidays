@@ -7,18 +7,9 @@
     background-color: #b10303;
 }
 
-.tel_no {
-    color: #faf6f6ce;
-}
-
-.tel_no a {
-    color:#faf6f6ce
-    ;
-}
 
 
-
-/*-----------------------------Heading---*/
+/*-----------------------------Header---*/
 
 header {
     margin: 0;
@@ -42,11 +33,17 @@ header {
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 2px;
+    color: #faf6f6ce;
 }
 
 .tel_no a {
     font-size: 30px;
     margin: 4px;
+    color: #faf6f6ce;
+}
+
+.tel_no a:hover {
+    color: #c5b720;
 }
 
 .menuitem {
@@ -64,4 +61,34 @@ header {
     text-align: center;
 }
 
+.menuitem a:hover {
+    color: #c5b720;
+}
 
+
+/*-----------------------------Footer---*/
+
+.footer-common {
+    height: 120px;
+    color: #faf6f6ce;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+.footer-common p a {
+    color: #faf6f6ce;
+}
+
+.footer-common i {
+    color: #faf6f6ce;
+    font-size: 26px;
+    padding: 4px;
+}
+
+.footer-common p a:hover {
+    color:#c5b720
+}
+
+.footer-common i:hover {
+    color: #c5b720;
+}
