@@ -4,15 +4,16 @@
 /*-----------------------------Colors---*/
 
 .bg-color {
-    background-color: #c3c3c3;
+    background-color: #b10303;
+}
+
+.tel_no {
+    color: #faf6f6ce;
 }
 
 .tel_no a {
-    color:#b31625;
-}
-
-.nav a {
-    color: #b31625;
+    color:#faf6f6ce
+    ;
 }
 
 
@@ -21,6 +22,8 @@
 
 header {
     margin: 0;
+    border: solid;
+    border-color: #b10303;
 }
 
 .logo {
@@ -46,10 +49,19 @@ header {
     margin: 4px;
 }
 
-.nav {
-    font-size: 18px;
-    letter-spacing: 2px;
-    margin-top: 30px;
-    margin-right: 20px;
-    float: right;
+.menuitem {
+    height:120px;
+    padding: 0;
 }
+
+.menuitem a {
+    color:#faf6f6ce;
+    width: 100%;
+    text-decoration:none;
+    height: 120px;
+    font-size: 22px;
+    margin: 8px;
+    text-align: center;
+}
+
+
