@@ -91,6 +91,11 @@ Viabaility Chart: Insert table here ( viability vs importance )
 * Design Choices:
 
     * Color: I chose vibrant summer colors to implement a "good feel" vibe when visiting the page, the approach for these choices were guided by the original website(no longer exist, was provided by franchise at the time) colors and logo.
+
+    *  #b10303, rgba(255,0,0,0.2), #c5b720, #faf6f6ce
+
+
+
     * Font: choices to be presented here
 
 * Interaction Design:
@@ -125,26 +130,87 @@ work flow graph/ image added here
 
 Below are the links to all images used for the brochure and throughout the website.
 
-*Pixabay: https://pixabay.com/images/search/webpage/
+* Pixabay: https://pixabay.com/images/search/webpage/
 
-*https://pixabay.com/photos/barbados-word-text-handwriting-70753/
-*https://pixabay.com/photos/indonesia-bali-ulun-danu-1578647/
-*https://pixabay.com/photos/eiffel-tower-paris-france-3349075/  
-*https://pixabay.com/photos/tiber-bridge-rome-bridge-italy-2263361/
-*https://pixabay.com/photos/church-santorini-d-greece-island-2020258/
-*https://pixabay.com/photos/mykonos-santorini-paros-greece-7317855/
-*https://pixabay.com/photos/bridge-manhattan-brooklyn-new-york-370542/
-*https://pixabay.com/photos/peru-mountains-machu-picchu-2135770/
-*https://pixabay.com/photos/hollywood-united-states-los-angeles-573444/
-*https://pixabay.com/photos/seychelles-indian-ocean-vacations-215253/
-*https://pixabay.com/photos/sydney-opera-house-sydney-354375/
-*https://pixabay.com/photos/beach-resort-jetty-pier-boardwalk-666122
-*https://pixabay.com/photos/beach-ocean-waves-coast-shore-5531919/
+ * https://pixabay.com/photos/barbados-word-text-handwriting-70753/
+ * https://pixabay.com/photos/indonesia-bali-ulun-danu-1578647/
+ * https://pixabay.com/photos/eiffel-tower-paris-france-3349075/  
+ * https://pixabay.com/photos/tiber-bridge-rome-bridge-italy-2263361/
+ * https://pixabay.com/photos/church-santorini-d-greece-island-2020258/
+ * https://pixabay.com/photos/mykonos-santorini-paros-greece-7317855/
+ * https://pixabay.com/photos/bridge-manhattan-brooklyn-new-york-370542/
+ * https://pixabay.com/photos/peru-mountains-machu-picchu-2135770/
+ * https://pixabay.com/photos/hollywood-united-states-los-angeles-573444/
+ * https://pixabay.com/photos/seychelles-indian-ocean-vacations-215253/
+ * https://pixabay.com/photos/sydney-opera-house-sydney-354375/
+ * https://pixabay.com/photos/beach-resort-jetty-pier-boardwalk-666122
+ * https://pixabay.com/photos/beach-ocean-waves-coast-shore-5531919/
 
 ## Credits
 
-all code snippets used from other sources referenced here
+* w3schools.com:
+    * Flip Card: Code used from w3school.com website and changed to suit the needs of Get2Go Holidays destination page.
+        * HTML: <!--
 
----
+                <div class="flip-card">
+                 <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                     </div>
+                     <div class="flip-card-back">
+                          <h1>John Doe</h1>
+                          <p>Architect & Engineer</p>
+                          <p>We love that guy</p>
+                     </div>
+                 </div>
+                </div>
 
+                -->
 
+        * CSS:  
+
+                /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+                .flip-card {
+                background-color: transparent;
+                width: 300px;
+                height: 200px;
+                border: 1px solid #f1f1f1;
+                perspective: 1000px; /* Remove this if you don't want the 3D effect */
+                }
+
+                /* This container is needed to position the front and back side */
+                .flip-card-inner {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 0.8s;
+                transform-style: preserve-3d;
+                }
+
+                /* Do an horizontal flip when you move the mouse over the flip box container */
+                .flip-card:hover .flip-card-inner {
+                transform: rotateY(180deg);
+                }
+
+                /* Position the front and back side */
+                .flip-card-front, .flip-card-back {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden; /* Safari */
+                backface-visibility: hidden;
+                }
+
+                /* Style the front side (fallback if image is missing) */
+                .flip-card-front {
+                background-color: #bbb;
+                color: black;
+                }
+
+                /* Style the back side */
+                .flip-card-back {
+                background-color: dodgerblue;
+                color: white;
+                transform: rotateY(180deg);
+                }
