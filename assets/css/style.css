@@ -320,11 +320,12 @@ header {
         width: 60%;
         height: auto;
         padding: 30px;
+        color: #faf6f6ce;
         text-align: center;
         border:solid;
         border-color: #b10303;
         border-radius: 10%;
-        background-color: rgba(255,0,0,0.2);
+        background-color: rgba(255,0,0,0.4);
     }
 
     label {
@@ -341,4 +342,29 @@ header {
 
     #textarea {
         width:80%;
+    }
+
+    .btn-enquiry {
+        width: 200px;
+        height: 50px;
+        color:#faf6f6ce;
+        background-color:#b10303;
+        font-size: 18px;
+        border-radius: 20%;
+        bottom: 50px;
+        right: 140px;
+    
+    }
+
+    .btn-enquiry:hover {
+        color: #c5b720;
+    }
+
+    .contact-info {
+        color: #faf6f6ce;
+        letter-spacing: 2px;
+    }
+
+    .contact-info h2 {
+        padding-bottom: 20px;
     }
