@@ -210,6 +210,11 @@ header {
     padding-top:20px;
 }
 
+.destinations-header i {
+    padding: 30px;
+    font-size: 75px;
+}
+
 .deal-type-container {
     position: relative;
     width: 400px;
@@ -298,3 +303,42 @@ header {
     padding-top: 30px;
     font-weight: bold;
   }
+
+  /*-----------------------------Enquiry Page---*/
+
+  .form-container {
+    background: url("../images/barbados.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    padding:50px;
+  }
+
+    .enquiry-form {
+        position:relative;
+        width: 60%;
+        height: auto;
+        padding: 30px;
+        text-align: center;
+        border:solid;
+        border-color: #b10303;
+        border-radius: 10%;
+        background-color: rgba(255,0,0,0.2);
+    }
+
+    label {
+        width:80%;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    #holiday-type,#deal {
+        width: 80%;
+    }
+
+    #textarea {
+        width:80%;
+    }

@@ -36,7 +36,58 @@
         </div>
     </header>
 
-    <section>
+    <section class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-sm-3 bg-color">
+
+            </div>
+            <div class="col-12 col-sm-9 form-container center"> 
+
+                <form class="enquiry-form" method="POST" action="landing.html">
+                    <h2> <i class="fa-solid fa-file-signature"></i> Enquiry Form </h2>
+
+                    <label for="fname">First Name</label>
+                    <input id="fname" class="text-input" type="text" name="first_name" required />
+
+                    <label for="lname">Last Name</label>
+                    <input id="lname" class="text-input" type="text"  name="last_name" required />
+
+                    <label for="email">Email Address</label>
+                    <input id="email" class="text-input" type="email" name="email_address" required/>
+
+                    <label for="holiday-type">Holiday type</label>
+                    <select id="holiday-type" name="holiday_type">
+                        <option value="multicity">Multicity</option>
+                        <option value="beach-holidays">Beach Holidays</option>
+                        <option value="bucketlist-destinations">Bucketlist</option>
+                    </select>
+
+                    <label for="deal">Preferred Deal</label>
+                    <select id="deal" name="holiday_deal">
+                        <option value="european-extravaganza">European Extravaganza</option>
+                        <option value="mediterranean-magic">Mediterranean Magic</option>
+                        <option value="american-odyssey">American Odyssey</option>
+                        <option value="machupicchu-galapagos-islands">Majestic Machu Picchu & Galápagos Islands</option>
+                        <option value="seychelles">Safari in the Serengeti & Beach Bliss in the Seychelles</option>
+                        <option value="australia">Iconic Australian Outback & Great Barrier Reef</option>
+                        <option value="bali">Surf and Sun in Bali</option>
+                        <option value="barbados">Caribbean Delight in Barbados</option>
+                        <option value="maldives">Tropical Bliss in the Maldives</option>
+                    </select>
+
+                    <label for="budget">Budget</label>
+                    <input id="budget" type="range" name="abudget" min="£0" max="£5000">
+
+                    <label for="textarea">Additional Info</label>
+                    <textarea id="textarea" name="textarea" placeholder="Let us know any preferences regarding accomodation and travel."></textarea>
+
+                    <input type="submit" value="Submit">
+                    
+                </form>
+                
+            </div>
+        </div>
 
     </section>
 
