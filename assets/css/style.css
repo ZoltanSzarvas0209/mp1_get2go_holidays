@@ -14,7 +14,6 @@
 }
 
 
-
 /*-----------------------------Header---*/
 
 header {
@@ -24,7 +23,7 @@ header {
 }
 
 .logo {
-    background: url("../images/logo.jpg");
+    background: url("../images/get2goholidays_logo.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 120px;
@@ -53,8 +52,10 @@ header {
 }
 
 .menuitem {
+    float: left;
     height:120px;
     padding: 0;
+    padding-top: 30px;
 }
 
 .menuitem a {
@@ -95,31 +96,6 @@ header {
 
 .footer-common i:hover {
     color: #c5b720;
-}
-
-
-/*-----------------------------HomePage-HeroImage---*/
-
-.hero-image {
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-}
-
-.btn-home-deal {
-    position: absolute;
-    right:20%;
-    bottom: 10%;
-    width: 240px;
-    height: 60px;
-    color:#faf6f6ce;
-    background-color:#b10303;
-    font-size: 20px;
-    border-radius: 20%;
-}
-
-.btn-home-deal:hover {
-    color:#c5b720;
 }
 
 
@@ -227,13 +203,13 @@ header {
 
 .testimonials {
     width: 100%;
-    height: 400px;
+    height: 100%;
 }
 
 .review {
     background-color: rgba(255,0,0,0.2);
-    width: 240px;
-    height: 240px;
+    width: 90%;
+    height: 90%;
     border: solid;
     border-radius: 10%;
     border-color: #b10303;
@@ -285,7 +261,7 @@ header {
 
 .section-container {
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 .destinations-header {
@@ -305,14 +281,15 @@ header {
 
 .deal-type-container {
     position: relative;
-    width: 400px;
+    width: 100%;
     height: 400px;
 }
 
 .deal-type-container img {
     position: absolute;
-    width: 360px;
-    height: 360px;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
     overflow: hidden;
 }
 
@@ -323,26 +300,31 @@ header {
 }
 
 .btn-see-deals {
-    position: absolute;
-    width: 200px;
-    height: 50px;
+    position: absolute;   
+    width: 50%;
+    height: 10%;
     color:#faf6f6ce;
     background-color:#b10303;
     font-size: 18px;
     border-radius: 20%;
-    bottom: 50px;
-    right: 140px;
-
+    bottom: 20%;
+    right: 20%;
 }
 
 .btn-see-deals:hover {
     color: #c5b720;
 }
 
+.multi-type-container {
+    padding: 20px;
+}
+
 .multi-type-container img {
     width: 300px;
     height: 300px;
+    padding:20px;
     border-radius: 50%;
+    background-color: #b10303;
     
 }
 

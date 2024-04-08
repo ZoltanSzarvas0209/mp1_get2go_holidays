@@ -124,7 +124,14 @@ work flow graph/ image added here
 
 ## Testing/Bugs/Fixes
 
+1. Responsive layout issue: sections are overlaying when testing small devices.
+    - Solution: sections where given specific heights in px when initial code was written, changed width and height to %. This has solved the issue with the site responsivness.
 
+2. The header appeared to have an unintentional over reach on the side of the nav bar area:
+    - Solution: Investigated issue with the help of Developer Tools and found that I missed the bootstrap container in the header section "container-fluid", added it on to each page and this had fixed the issue.
+<details><summary> Picture of issue:</summary>
+<img src="assets/images/bug.jpg">
+</details> 
 
 ## Media
 
