@@ -96,7 +96,7 @@ Viabaility Chart: Insert table here ( viability vs importance )
 
 
 
-    * Font: choices to be presented here
+    * Font: I choose the font family Open sans with san sarif as a fall back font.
 
 * Interaction Design:
 

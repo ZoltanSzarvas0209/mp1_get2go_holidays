@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
 
 
 /*-----------------------------General Classes---*/
@@ -37,6 +37,7 @@ header {
     margin-top: 30px;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     color: #faf6f6ce;
 }
@@ -64,6 +65,7 @@ header {
     text-decoration:none;
     height: 120px;
     font-size: 22px;
+    font-family: 'Open Sans', sans-serif ;
     text-align: center;
 }
 
@@ -77,6 +79,7 @@ header {
     height: 120px;
     color: #faf6f6ce;
     font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -87,6 +90,7 @@ header {
 .footer-common i {
     color: #faf6f6ce;
     font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
     padding: 4px;
 }
 
@@ -194,6 +198,7 @@ header {
 .testimonials-header{
     font-size: 50px;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
     color: #b10303;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -232,6 +237,7 @@ header {
 .why-book-with-us-header {
     font-size: 50px;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
     color: #b10303;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -248,6 +254,7 @@ header {
     text-transform: uppercase;
     padding: 20px;
     font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .valueitem i {
@@ -267,6 +274,7 @@ header {
 .destinations-header {
     font-size: 50px;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
     color: #b10303;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -372,6 +380,7 @@ header {
     border-radius: 50%;
     padding-top: 30px;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
   }
 
   /*-----------------------------Enquiry Page---*/
@@ -396,6 +405,7 @@ header {
         border-color: #b10303;
         border-radius: 10%;
         background-color: rgba(255,0,0,0.4);
+        font-family: 'Open Sans', sans-serif;
     }
 
     label {
@@ -467,6 +477,7 @@ header {
         color: #faf6f6ce;
         font-size:26px;
         font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
         text-align:center;
     
     }
@@ -474,5 +485,6 @@ header {
     .message-container h2 {
         font-size: 40px;
         font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
         padding-bottom: 10px;
     }
