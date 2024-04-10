@@ -11,6 +11,17 @@
     align-items: center;
 }
 
+.main-headers {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b10303;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align:-webkit-center;
+    padding: 50px;
+}
+
 
 /*-----------------------------Header---*/
 
@@ -92,7 +103,6 @@ header {
 .footer-common i {
     color: #faf6f6ce;
     font-size: 26px;
-    font-family:Arial, Helvetica, sans-serif ;
     padding: 4px;
 }
 
@@ -115,17 +125,6 @@ header {
 }
 
 /*-----------------------------HomePage-Testimonials---*/
-
-.testimonials-header{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #b10303;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-align:-webkit-center;
-    padding-top:20px;
-}
 
 .testimonials {
     width: 100%;
@@ -154,17 +153,6 @@ header {
 
 
 /*-----------------------------HomePage-Why-book-with-us---*/
-
-.why-book-with-us-header {
-    font-size: 50px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #b10303;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-align:-webkit-center;
-    padding:20px;
-}
 
 .why-book-with-us {
     width: 100%;
