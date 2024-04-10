@@ -85,6 +85,10 @@ header {
     color: #c5b720;
 }
 
+.active  {
+    background-color: rgba(255,0,0,0.4);
+}
+
 
 /*-----------------------------Footer---*/
 
@@ -115,7 +119,7 @@ header {
 }
 
 
-/*-----------------------------HomePAge Slider/ Code obtained https://www.w3schools.com/howto/howto_css_flip_card.asp, editted to suit my website needs---*/
+/*-----------------------------HomePAge Slider/ Code obtained from bootstrap and edited---*/
 
 .carousel-item img {
     max-width:1200px;
