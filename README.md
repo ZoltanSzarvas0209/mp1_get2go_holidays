@@ -92,7 +92,7 @@ Viabaility Chart: Insert table here ( viability vs importance )
 
     * Color: I chose vibrant summer colors to implement a "good feel" vibe when visiting the page, the approach for these choices were guided by the original website(no longer exist, was provided by franchise at the time) colors and logo.
 
-    *  #b10303, rgba(255,0,0,0.2), #c5b720, #faf6f6ce
+    *  #b10303, rgba(255,0,0,0.2), rgba(255,0,0,0.4), #c5b720, #faf6f6ce
 
 
 
@@ -103,6 +103,8 @@ Viabaility Chart: Insert table here ( viability vs importance )
 work flow graph/ image added here
 
 * Wireframes:
+
+Wireframes below were the original design, however the final product do feature some minor difference as alternative solutions were choosen and additional features implemented during development.
 
 <details><summary>Home</summary>
 <img src="assets/images/index.html.png">
@@ -133,6 +135,21 @@ work flow graph/ image added here
 <img src="assets/images/bug.jpg">
 </details> 
 
+3. Hamburger icon and toggle not working: Original implementation used bootstrap provided code to create hamburger icon toggle feature. This had later been scrapped as the course dos not require javascript to be used and found this was not justifyable to solve within the given time frame.
+    - Issue was not resolved and alternate solution was emplemented.
+
+4. During testing another issue appeared with the responsiveness of the header. Namely the navigation bar and call us section did not respond accurately to smaller screen sizes and some of the content went off screen.
+    - Solution: I used media query to reduce the size of the navbar, hide the download brochure element so the rest of the navigation fits nicely. Furthermore, I changed the breakpoint I used in the main structure with bootstrap so the call us section hides earlier.
+    The above have solved the issue!
+
+5. Logo image non responsive and partialy covered on smaller screen sizes:
+    - Solution: Changed the way the logo was originally implemented in css and used html <img> element instead. Set the parent container max-width t0 100% and the image to max-width:100% and height auto to enure it is fully responsive.
+    The above has solved the issue.
+
+6. Bootstrap Carousel not working:
+    - The carousel created from bootstrap provided code was not working on the HOME page. The issue was fixed with the help of CodeInstitute tutor support, I found that the 4.2 version of hte CDN links added to the project needed replacing.
+        - Solution: 4.6.2 version CDN links were added and that had fixed the issue.
+
 ## Media
 
 Below are the links to all images used for the brochure and throughout the website.
@@ -157,7 +174,9 @@ Below are the links to all images used for the brochure and throughout the websi
 
 * w3schools.com:
     * Flip Card: Code used from w3school.com website and changed to suit the needs of Get2Go Holidays destination page.
-        * HTML: <!--
+        * HTML: 
+
+                <!--
 
                 <div class="flip-card">
                  <div class="flip-card-inner">
@@ -221,3 +240,62 @@ Below are the links to all images used for the brochure and throughout the websi
                 color: white;
                 transform: rotateY(180deg);
                 }
+        
+    * Bootstrap: Navbar
+        * The originally taken navbar below was edited heavily with the toggle feature taken out.
+
+        <!--
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+                </ul>
+            </div>
+        </nav> 
+        -->
+
+    * Bootstrap: Carousel
+        * 
+            <!--
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+            </div>
+            -->

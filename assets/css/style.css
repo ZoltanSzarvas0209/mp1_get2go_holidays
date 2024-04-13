@@ -39,32 +39,31 @@ header {
 }
 
 .logo {
-    background: url("../images/get2goholidays_logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 120px;
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
-@media (max-width:576px) {
-    .logo {
-        display: none;
-    }
+.logo img {
+    max-width: 100%;
+    height: auto;
 }
 
 .tel_no {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: fit-content;
     text-transform: uppercase;
     margin-top: 20px;
-    font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #faf6f6ce;
 }
 
 .tel_no a {
-    font-size: 20px;
     margin: 4px;
     color: #faf6f6ce;
 }
@@ -74,7 +73,7 @@ header {
 }
 
 .navbar-style {
-    font-size: 20px;
+    max-width: 100%;
 }
 
 .navbar-style a {
@@ -82,7 +81,7 @@ header {
 }
 
 .nav-item {
-    height: 120px;
+    height: 70px;
 }
 
 .nav-item:hover {
@@ -91,7 +90,13 @@ header {
 
 .nav-link {
     width: 100%;
-    height: 120px;
+    height: 70px;
+}
+ 
+@media(max-width:568px) {
+    #Dbrochure {
+        display: none;
+    }
 }
 
 .nav-link:hover {
