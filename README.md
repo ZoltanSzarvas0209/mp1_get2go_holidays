@@ -65,7 +65,19 @@ Get2Go holidays is thought to be an independent agency/agents and based on the r
 ### User Stories
 
 * User story 1:
+    - As a customer at a fantasising/planning stage of a Holiday:
+
+        1. I am looking for inspiration of where to go
+        2. I am looking for a peace of mind about holiday security/reliability
+        3. I want to see feedback from previous customers to have a better idea what to expect.
+        4. I want to see a range of prices so I can make an informed decision before I progress further.
+
 * User story 2:
+    - As a customer ready to pick a package/book a Holiday:
+
+        1. I am looking for a good selection of destinations with guide prices
+        2. I am looking to be able to submit my specific requests and get my quotes.
+        3. I want to see options to get in touch should I wish to progress or my requirements have changed.
 
 ### Scope
 
@@ -79,12 +91,22 @@ Viabaility Chart: Insert table here ( viability vs importance )
 
     * Header: The header contains a company logo , a call to action button and the main navigation bar.
 
+        * Logo : responsive image of the logo of the company.
+        * Contact : call to action implemented with clickable phone number.
+        * Navbar : Main navigation feature of the whole site allowing users to easily move around as desired.
+
     * Footer: Main feature in this section is the clicable social media icons providing an alternative way to see and contact the company. The footer also home for a terms and conditions link( pop up widow with details) and a button to download brochure.
 
-    * Main Page: index.html - present an overall look of the site, showcasing a hero image with eye catching holiday pictures and call to action buttons( see deals), which also provide an alternative way( other than nav bar) to navigate to the holidays.html page. The main page also includes a section of reviews and reasosns to book with us.
+    * Main Page: index.html - present an overall look of the site, showcasing a hero image with eye catching holiday pictures and call to action buttons( see deals), which also provide an alternative way( other than nav bar) to navigate to the holidays.html page. The main page also includes a section of reviews and reasosns to book with us. 
+        * Carousel: a slideshow of the main holiday categories, catch users attention quickly.
+        * Testimonials: a display of feedback from previous customers.
+        * Why book with us: a selection of feature the company offers for peace of mind.
+
     * Deals Page: presents main holiday categories for user such as multi-destination or bucket-list holidays with large clickable pictures/icons that navigates the user to the second section of the page where all actual deals are avaialble. All deals containers include a see deal button that has a pop-up window with the holiday details.
+
     * Enquiry Page: The enquiry page's main section have a form , where users can submit holiday requests/questions based on prefered dates, destination and budget. Upon submitting a form a thank you landing page is presented with navigation to return to main site.
-    * Landing Page: A thank you page letting customers knnow that their enquiry form had been successfully submitted and present an additional button to return to home page.
+    
+    * Landing Page: A thank you page letting customers knnow that their enquiry form had been successfully submitted.
  
     * Download Brochure: clickable link to download a brochure with all existing deals. The feature presented in multiple location, namely once in the navigation bar and once in the footer area.
 
@@ -244,58 +266,56 @@ Below are the links to all images used for the brochure and throughout the websi
     * Bootstrap: Navbar
         * The originally taken navbar below was edited heavily with the toggle feature taken out.
 
-        <!--
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
-                </ul>
-            </div>
-        </nav> 
-        -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                        </ul>
+                    </div>
+                 </nav> 
 
     * Bootstrap: Carousel
         * 
-            <!--
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
+            
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
                 </div>
-                <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </button>
-            </div>
-            -->
+            
