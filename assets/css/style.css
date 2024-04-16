@@ -243,11 +243,13 @@ header {
     width: 50%;
     height: 10%;
     color:#faf6f6ce;
+    text-align: center;
     background-color:#b10303;
     font-size: 18px;
     border-radius: 20%;
     bottom: 20%;
     right: 20%;
+    padding-top: 5px;
 }
 
 .btn-see-deals:hover {

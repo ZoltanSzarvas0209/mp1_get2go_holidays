@@ -148,14 +148,45 @@ Wireframes below were the original design, however the final product do feature 
 
 ## Testing/Bugs/Fixes
 
+### HTML and CSS validation:
+
+1. index.html:
+    - <details><summary> Picture of issue:</summary>
+         <img src="assets/test-images/home_error_html.png">
+        </details> 
+
+        1. illegal space character removed - same error present in all pages and rectified
+        2. area hidden atribute not allowed - same error present in all pages and removed
+
+2. destination.html:
+    - <details><summary> Picture of issue:</summary>
+         <img src="assets/test-images/destination_error_html.png">
+        </details>
+
+        1. button element error - element was removed and link wrapped in <a></a> tag. text-align: center; and padding-top: 5px; was also added to btn-see-deals to reposition button.
+        2. section lacks heading warning: decided not to address this further as code was used from external source( referenced in credit section).
+
+3. enquiry.html : Passed validator
+
+4. landing.html: Passed Validator
+
+5. CSS Validator: Pass with no errors.
+    - <details><summary> Picture of issue:</summary>
+         <img src="assets/test-images/css_validator_pass.png">
+        </details>
+
+### Testing
+
+- Initial testing items below arose during development and most were dealt with at the time. 
+
 1. Responsive layout issue: sections are overlaying when testing small devices.
     - Solution: sections where given specific heights in px when initial code was written, changed width and height to %. This has solved the issue with the site responsivness.
 
 2. The header appeared to have an unintentional over reach on the side of the nav bar area:
     - Solution: Investigated issue with the help of Developer Tools and found that I missed the bootstrap container in the header section "container-fluid", added it on to each page and this had fixed the issue.
-<details><summary> Picture of issue:</summary>
-<img src="assets/images/bug.jpg">
-</details> 
+        <details><summary> Picture of issue:</summary>
+        <img src="assets/test-images/bug.jpg">
+        </details> 
 
 3. Hamburger icon and toggle not working: Original implementation used bootstrap provided code to create hamburger icon toggle feature. This had later been scrapped as the course dos not require javascript to be used and found this was not justifyable to solve within the given time frame.
     - Issue was not resolved and alternate solution was emplemented.
@@ -171,6 +202,57 @@ Wireframes below were the original design, however the final product do feature 
 6. Bootstrap Carousel not working:
     - The carousel created from bootstrap provided code was not working on the HOME page. The issue was fixed with the help of CodeInstitute tutor support, I found that the 4.2 version of hte CDN links added to the project needed replacing.
         - Solution: 4.6.2 version CDN links were added and that had fixed the issue.
+
+- At the end of the Project further testing took place to identify any shortcomings. See details below:
+
+1. HEADER:
+
+| Feature | Test Method | Expected Result | Actual Result |
+|-------------|------------|---------------------|-------------------|
+| Navigation | click on each navigation item | link to pages and download brochure | Works as expected |
+
+| Feature | Test Method | Expected Result | Actual Result |
+|-------------|------------|---------------------|-------------------|
+| phone number link | click on link | come up with call option for number provided | FAIL |
+
+| Feature | Test Method | Expected Result | Actual Result |
+|-------------|------------|---------------------|-------------------|
+| Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | Works as expected |
+
+
+- clicking on number does not initiate call.
+
+Solution:
+
+
+2. FOOTER:
+
+| Feature | Test Method | Expected Result | Actual Result |
+|-------------|------------|---------------------|-------------------|
+| links | click on each icon/link | link to pages and download brochure  | FAIL |
+
+- e-mail link isn't linked up.
+
+Solution:
+
+
+
+3. HOME:
+
+| Feature | Test Method | Expected Result | Actual Result |
+|-------------|------------|---------------------|-------------------|
+| Carousel | click on arrows to navigate between | change image on each click | Works as expected |
+
+4. DESTINATIONS:
+
+5. CONTACT:
+
+6. LANDING:
+
+
+
+
+
 
 ## Media
 
