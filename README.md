@@ -250,25 +250,25 @@ Solution:
 3. HOME:
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-----------------|-------------|
 | Carousel | click on arrows to navigate between | change image on each click | PASS |
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 4. DESTINATIONS:
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-----------------|-------------|
 | See Deal buttons | click on each button | link me to required section of the page | PASS |
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-----------------|-------------|
 | Flip Card | click on each card | to flip card and present holiday details | PASS |
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 
@@ -287,30 +287,30 @@ Solutions:
     - I changed the breakpoints and added some media quiery to solve this issue.
 
  2. investigationg the issue I found that I created destination-header css to style these sections. I solved the issue by deleteing this and replace it with the main-headers style creted to use for all headers on the site.
- 
+
 
 5. CONTACT:
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-----------------|-------------|
 | Form - missing details | fill in form with details missing from one section and submit. Repeat until each section required is tested. | Please fill in this field warning. | PASS |
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-------------------------------|
 | Form - dropdown | click on dropdown menu | to be presented with all options provided | PASS |
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-----------------|-------------|
 | Form - correct and submit | fill in form correctly and click on submit button | to be presented with thank you landing page. | PASS |
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 6. LANDING:
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 

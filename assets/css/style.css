@@ -112,7 +112,7 @@ header {
 .footer-common {
     height: 120px;
     color: #faf6f6ce;
-    font-size: 26px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
 }
@@ -123,7 +123,6 @@ header {
 
 .footer-common i {
     color: #faf6f6ce;
-    font-size: 26px;
     padding: 4px;
 }
 
@@ -141,7 +140,11 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 30px;
+        font-size: 18px;
+    }
+
+    .footer-common {
+        height: 80px;
     }
 }
 
@@ -217,6 +220,12 @@ header {
     height: 400px;
 }
 
+@media (max-width: 768px) {
+    .deal-type-container {
+        margin-left: 20px;
+    }
+}
+
 .deal-type-container img {
     position: absolute;
     padding: 20px;
@@ -227,7 +236,7 @@ header {
 
 .type-caption {
     position: absolute;
-    font-size: 26px;
+    font-size: 20px;
     color: #faf6f6ce;
 }
 
@@ -250,7 +259,7 @@ header {
 }
 
 .multi-type-container {
-    padding: 20px;
+    padding: 10px;
 }
 
 .multi-type-container img {
@@ -306,7 +315,6 @@ header {
   }
   
   .flip-card-front {
-    background-color: #bbb;
     color: black;
     border-radius: 50%;
   }
