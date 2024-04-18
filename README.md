@@ -151,7 +151,7 @@ Wireframes below were the original design, however the final product do feature 
 ### HTML and CSS validation:
 
 1. index.html:
-    - <details><summary> Picture of issue:</summary>
+    - <details><summary> Screenshot of result</summary>
          <img src="assets/test-images/home_error_html.png">
         </details> 
 
@@ -159,7 +159,7 @@ Wireframes below were the original design, however the final product do feature 
         2. area hidden atribute not allowed - same error present in all pages and removed
 
 2. destination.html:
-    - <details><summary> Picture of issue:</summary>
+    - <details><summary> Screenshot of result</summary>
          <img src="assets/test-images/destination_error_html.png">
         </details>
 
@@ -171,13 +171,13 @@ Wireframes below were the original design, however the final product do feature 
 4. landing.html: Passed Validator
 
 5. CSS Validator: Pass with no errors.
-    - <details><summary> Picture of issue:</summary>
+    - <details><summary> Screenshot of result</summary>
          <img src="assets/test-images/css_validator_pass.png">
         </details>
 
 ### Testing
 
-- Initial testing items below arose during development and most were dealt with at the time. 
+#### Initial testing items below arose during development and most were dealt with at the time. 
 
 1. Responsive layout issue: sections are overlaying when testing small devices.
     - Solution: sections where given specific heights in px when initial code was written, changed width and height to %. This has solved the issue with the site responsivness.
@@ -203,35 +203,45 @@ Wireframes below were the original design, however the final product do feature 
     - The carousel created from bootstrap provided code was not working on the HOME page. The issue was fixed with the help of CodeInstitute tutor support, I found that the 4.2 version of hte CDN links added to the project needed replacing.
         - Solution: 4.6.2 version CDN links were added and that had fixed the issue.
 
-- At the end of the Project further testing took place to identify any shortcomings. See details below:
+#### At the end of the Project further testing took place to identify any shortcomings. See details below:
 
 1. HEADER:
 
-| Feature | Test Method | Expected Result | Actual Result |
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
 |-------------|------------|---------------------|-------------------|
-| Navigation | click on each navigation item | link to pages and download brochure | Works as expected |
+| Get2Go Logo | click on logo | navigate back to HOME page | PASS |
 
-| Feature | Test Method | Expected Result | Actual Result |
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Navigation | click on each navigation item | link to pages and download brochure | PASS |
+
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
 |-------------|------------|---------------------|-------------------|
 | phone number link | click on link | come up with call option for number provided | FAIL |
 
-| Feature | Test Method | Expected Result | Actual Result |
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
 |-------------|------------|---------------------|-------------------|
-| Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | Works as expected |
+| Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 
-- clicking on number does not initiate call.
+1. clicking on number does not initiate call.
 
 Solution:
 
 
+
 2. FOOTER:
 
-| Feature | Test Method | Expected Result | Actual Result |
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
 |-------------|------------|---------------------|-------------------|
 | links | click on each icon/link | link to pages and download brochure  | FAIL |
 
-- e-mail link isn't linked up.
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
+
+
+1. e-mail link isn't linked up.
 
 Solution:
 
@@ -239,19 +249,69 @@ Solution:
 
 3. HOME:
 
-| Feature | Test Method | Expected Result | Actual Result |
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
 |-------------|------------|---------------------|-------------------|
-| Carousel | click on arrows to navigate between | change image on each click | Works as expected |
+| Carousel | click on arrows to navigate between | change image on each click | PASS |
+
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 4. DESTINATIONS:
 
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| See Deal buttons | click on each button | link me to required section of the page | PASS |
+
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Flip Card | click on each card | to flip card and present holiday details | PASS |
+
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
+
+
+Issues found and resolved:
+
+1. holiday details are not fitting in the containers.
+2. Section headers don't fit on smaller devices.
+
+
+Solutions:
+
+ 1. <details><summary> Picture of issue:</summary>
+    <img src="assets/test-images/testing_flipcard_issue.png">
+    </details>
+
+    - I changed the breakpoints and added some media quiery to solve this issue.
+
+ 2. investigationg the issue I found that I created destination-header css to style these sections. I solved the issue by deleteing this and replace it with the main-headers style creted to use for all headers on the site.
+ 
+
 5. CONTACT:
+
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Form - missing details | fill in form with details missing from one section and submit. Repeat until each section required is tested. | Please fill in this field warning. | PASS |
+
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Form - dropdown | click on dropdown menu | to be presented with all options provided | PASS |
+
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Form - correct and submit | fill in form correctly and click on submit button | to be presented with thank you landing page. | PASS |
+
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 6. LANDING:
 
-
-
-
+| **Feature** | **Test Method** | **Expectation** | **Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 
 ## Media
