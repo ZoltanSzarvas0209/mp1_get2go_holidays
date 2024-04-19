@@ -59,12 +59,12 @@ header {
     margin-top: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: #faf6f6ce;
+    color: #FFFFFF;
 }
 
 .tel_no a {
     margin: 4px;
-    color: #faf6f6ce;
+    color: #FFFFFF;
 }
 
 .tel_no a:hover {
@@ -76,7 +76,7 @@ header {
 }
 
 .navbar-style a {
-     color: #faf6f6ce;
+     color: #FFFFFF;
 }
 
 .nav-item {
@@ -461,11 +461,10 @@ header {
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
         text-align:center;
-    
     }
 
     .message-container h2 {
-        font-size: 40px;
+        font-size: 36px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
     }

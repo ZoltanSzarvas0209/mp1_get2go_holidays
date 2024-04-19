@@ -114,11 +114,11 @@ Viabaility Chart: Insert table here ( viability vs importance )
 
     * Color: I chose vibrant summer colors to implement a "good feel" vibe when visiting the page, the approach for these choices were guided by the original website(no longer exist, was provided by franchise at the time) colors and logo.
 
-    *  #b10303, rgba(255,0,0,0.2), rgba(255,0,0,0.4), #c5b720, #faf6f6ce
+    *  #b10303, rgba(255,0,0,0.2), rgba(255,0,0,0.4), #c5b720, #faf6f6ce, #FFFFFF
 
 
 
-    * Font: I choose the font family Open sans with san sarif as a fall back font.
+    * Font: I choose the font family Arial, Helvetica, sans-serif, generic html font-family that I found worked well with the site.
 
 * Interaction Design:
 
@@ -158,6 +158,10 @@ Wireframes below were the original design, however the final product do feature 
         1. illegal space character removed - same error present in all pages and rectified
         2. area hidden atribute not allowed - same error present in all pages and removed
 
+    - <details><summary> Screenshot of result after fix</summary>
+         <img src="assets/test-images/Home_html_pass.png">
+        </details>
+
 2. destination.html:
     - <details><summary> Screenshot of result</summary>
          <img src="assets/test-images/destination_error_html.png">
@@ -166,9 +170,21 @@ Wireframes below were the original design, however the final product do feature 
         1. button element error - element was removed and link wrapped in <a></a> tag. text-align: center; and padding-top: 5px; was also added to btn-see-deals to reposition button.
         2. section lacks heading warning: decided not to address this further as code was used from external source( referenced in credit section).
 
+    - <details><summary> Screenshot of result after fix</summary>
+         <img src="assets/test-images/destination_html_pass.png">
+        </details>
+
 3. enquiry.html : Passed validator
 
+    - <details><summary> Screenshot of result after fix</summary>
+         <img src="assets/test-images/contact_html_pass.png">
+        </details>
+
 4. landing.html: Passed Validator
+
+    - <details><summary> Screenshot of result after fix</summary>
+         <img src="assets/test-images/landing_html_pass.png">
+        </details>
 
 5. CSS Validator: Pass with no errors.
     - <details><summary> Screenshot of result</summary>
@@ -313,6 +329,43 @@ Solutions:
 |-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
+#### Accesibility
+
+- Google Chrome Lighthouse tool was used to test accessibility of the site:
+
+Issues Found:
+
+1. <details><summary> Screenshot of issue</summary>
+    <img src="assets/test-images/improve_accessibility.png">
+    </details>
+
+    - Fix: Footer icons needed aria-label added.
+
+2.  <details><summary> Screenshot of issue</summary>
+    <img src="assets/test-images/improve_accessibility_contrast.png">
+    </details>
+
+    - Fix: Color contrast failed in Header so introduced a fully white color to provide better contrast. 
+
+- Result after fixes:
+
+1.  <details><summary> HOME</summary>
+    <img src="assets/test-images/Home_access_pass.png">
+    </details>
+
+2.  <details><summary> DESTINATIONS</summary>
+    <img src="assets/test-images/Destination_access_pass.png">
+    </details>
+
+    - The result here is 94% and it is due to contrast issue with background picture. As a travel agency website many background pictures in flip cards are based on destination and therefore I found this "issue" acceptable.
+
+3.  <details><summary> CONTACT</summary>
+    <img src="assets/test-images/contact_access_pass.png">
+    </details>
+
+4.  <details><summary> LANDING</summary>
+    <img src="assets/test-images/landing_access_pass.png">
+    </details>
 
 ## Media
 
