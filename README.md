@@ -226,36 +226,17 @@ Wireframes below were the original design, however the final product do feature 
 1. HEADER:
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|--|--|--|--|
 | Get2Go Logo | click on logo | navigate back to HOME page | PASS |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
 | Navigation | click on each navigation item | link to pages and download brochure | PASS |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
-| phone number link | click on link | come up with call option for number provided | FAIL |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+| phone number link | click on link | come up with call option for number provided | PASS |
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
-
-
-1. clicking on number does not initiate call.
-
-Solution:
-
-
 
 2. FOOTER:
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
-| links | click on each icon/link | link to pages and download brochure  | FAIL |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|------------|---------------------|-------------------|
+|--|--|--|--|
+| links | click on each icon/link | link to pages and download brochure  | FAIL 
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 
@@ -263,30 +244,21 @@ Solution:
 
 Solution:
 
-
+1. mailto:email address added to href to solve this issue.
 
 3. HOME:
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|-----------------|-----------------|-------------|
+|--|--|--|--|
 | Carousel | click on arrows to navigate between | change image on each click | PASS |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 4. DESTINATIONS:
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|-----------------|-----------------|-------------|
+|--|--|--|--|
 | See Deal buttons | click on each button | link me to required section of the page | PASS |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|-----------------|-----------------|-------------|
 | Flip Card | click on each card | to flip card and present holiday details | PASS |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 
@@ -312,17 +284,8 @@ Solutions:
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
 |-------------|-----------------|-----------------|-------------|
 | Form - missing details | fill in form with details missing from one section and submit. Repeat until each section required is tested. | Please fill in this field warning. | PASS |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|-----------------|-------------------------------|
 | Form - dropdown | click on dropdown menu | to be presented with all options provided | PASS |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|-----------------|-----------------|-------------|
 | Form - correct and submit | fill in form correctly and click on submit button | to be presented with thank you landing page. | PASS |
-
-| **Feature** | **Test Method** | **Expectation** | **Outcome** |
-|-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 6. LANDING:
