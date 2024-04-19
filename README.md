@@ -1,4 +1,6 @@
 
+![Mockup](assets/feature-images/am_i_responsive.png)
+
 ![logo](assets/images/get2goholidays_logo.png)
 
 ## Introduction
