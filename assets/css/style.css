@@ -109,6 +109,10 @@ header {
 
 /*-----------------------------Footer---*/
 
+footer {
+    margin-top: 20px;
+}
+
 .footer-common {
     height: 120px;
     color: #faf6f6ce;
@@ -239,6 +243,19 @@ header {
     font-size: 20px;
     color: #faf6f6ce;
 }
+
+.btn-back {
+    position:absolute;
+    right: 2%;
+    top: 90%;
+    color: #b10303;
+    font-size: 30px;
+}
+
+.btn-back:hover {
+    color: #c5b720;
+}
+
 
 .btn-see-deals {
     position: absolute;   
