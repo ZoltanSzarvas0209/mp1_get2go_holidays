@@ -11,14 +11,36 @@ Get2Go Holidays is a made up travel agent website. It was created for educationa
 
 It is a static website developed using html, css and bootstrap. The content of the site is limited for simplicity , however fully scalable for future extensions.
 
+## **[Live site](https://zoltanszarvas0209.github.io/mp1_get2go_holidays/)**
+
+## **[Repository](https://github.com/ZoltanSzarvas0209/mp1_get2go_holidays.git)**
+
+## Table of contents
+
+ 1. [ UX ](#ux)
+ 2. [ Technologies and Tools ](#technologies)  
+ 3. [ Objective ](#objective)  
+ 4. [ Research ](#research) 
+ 5. [ Target Audience ](#audience)  
+ 6. [ User Stories ](#user)  
+ 7. [ Structure and Design ](#design)
+ 8. [ Deployment ](#deployment)
+ 9. [ Testing/Bugs/Fixes ](#testing)
+     - [ HTML and CSS Validation](#htmlandcss)
+     - [ Testing ](#alltesting)
+          - [ Pre-deployment ](#predeployment)
+          - [ post-deployment ](#postdeployment)
+     - [ Accessibility ](#access)
+ 11. [ Media ](#media)
+ 12. [ Credits ](#credit)  
 
 
-## UX
+## UX <a name="ux"></a>
 
 The metholody of UXD was used in the planning and development of the project. 
 The choosen project is a travel agent's website to advertise and generate leads for bookings as part of a franchise. As code institute's first milestone project, an at least 3 page static website was required.
 
-### Technologies and Tools Used
+### Technologies and Tools Used <a name="technologies"></a>
 
 * Languages
 
@@ -40,11 +62,11 @@ The choosen project is a travel agent's website to advertise and generate leads 
     * FontAwesome: fonhttps://fontawesome.com/search?o=r&m=free&s=solid  - used for icons throughout the site
     * ChatGPT: https://chat.openai.com/   - used to create content for the brochure
 
-### Objective
+### Objective <a name="objective"></a>
 
 * The main objective of the website is to establish an online presence and create leads that can be converted into sales
 
-### Research
+### Research <a name="research"></a>
 
 Get2Go holidays was a side hussle of mine, while it eventually failed it is the base of the idea of this project. 
 
@@ -59,12 +81,12 @@ Websites and travel agents visisted for research:
 * [On the beach holidays](https://www.onthebeach.co.uk/)
 * [LuxuryEscapes](https://luxuryescapes.com/gb)
 
-### Target Audience
+### Target Audience <a name="audience"></a>
 
 Generally the target audience for an online agency are people with no specific plans/destination in mind yet but looking to explore. It includes individuals as well as groups looking for help to organise the travel plans. 
 Get2Go holidays is thought to be an independent agency/agents and based on the research conducted best targetting couples with out of ordinary itineraries such as multi-destnation breaks and bucketlist destinations.
 
-### User Stories
+### User Stories <a name="user"></a>
 
 * User story 1:
     - As a customer at a fantasising/planning stage of a Holiday:
@@ -81,11 +103,8 @@ Get2Go holidays is thought to be an independent agency/agents and based on the r
         2. I am looking to be able to submit my specific requests and get my quotes.
         3. I want to see options to get in touch should I wish to progress or my requirements have changed.
 
-### Scope
 
-Viabaility Chart: Insert table here ( viability vs importance )
-
-### Structure and Design
+### Structure and Design <a name="design"></a>
 
 * Layout: The general layout of the site created using bootstrap and breaks into 3 section. A header, a footer and a main section on each page. The header and footer is designed to be straight forward with logo and navigation while the footer is to present a number of alternative way to see the agency through social links and include action button and "other" informtion such as terms and conditions. Both header and footer are the same throughout the site to ensure consistency.
 
@@ -146,11 +165,24 @@ Wireframes below were the original design, however the final product do feature 
 <img src="assets/images/Landing PAge.png">
 </details>
 
+### Deployment <a name="deployment"></a>
 
+To Deploy a project from your github repesatory, foloow the steps below.
 
-## Testing/Bugs/Fixes
+ 1. Login to your GitHub account.
+ 2. Click on the repository you would like to deploy.
+ 3. Clcik Settings on the top navigation bar. 
+ 4. Then select Pages on the side navigation bar.
+ 5. Under Build and Deployment/ Source click on the first dropdown menu and select Deploy from a branch.
+ 6. Under branch click the first dropdown menu and select main.
+ 7. Under the second dropdown menu select /(root).
+ 8. Select Save.
 
-### HTML and CSS validation:
+    The github page now is alive!.
+
+## Testing/Bugs/Fixes <a name="testing"></a>
+
+### HTML and CSS validation: <a name="htmlandcss"></a>
 
 1. index.html:
     - <details><summary> Screenshot of result</summary>
@@ -193,9 +225,9 @@ Wireframes below were the original design, however the final product do feature 
          <img src="assets/test-images/css_validator_pass.png">
         </details>
 
-### Testing
+### Testing <a name="alltesting"></a>
 
-#### Initial testing items below arose during development and most were dealt with at the time. 
+#### Initial testing items below arose during development and most were dealt with at the time.  <a name="predeployment"></a>
 
 1. Responsive layout issue: sections are overlaying when testing small devices.
     - Solution: sections where given specific heights in px when initial code was written, changed width and height to %. This has solved the issue with the site responsivness.
@@ -221,7 +253,7 @@ Wireframes below were the original design, however the final product do feature 
     - The carousel created from bootstrap provided code was not working on the HOME page. The issue was fixed with the help of CodeInstitute tutor support, I found that the 4.2 version of hte CDN links added to the project needed replacing.
         - Solution: 4.6.2 version CDN links were added and that had fixed the issue.
 
-#### At the end of the Project further testing took place to identify any shortcomings. See details below:
+#### At the end of the Project further testing took place to identify any shortcomings. See details below: <a name="postdeployment"></a>
 
 1. HEADER:
 
@@ -294,7 +326,7 @@ Solutions:
 |-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
-#### Accesibility
+#### Accesibility <a name="access"></a>
 
 - Google Chrome Lighthouse tool was used to test accessibility of the site:
 
@@ -332,7 +364,7 @@ Issues Found:
     <img src="assets/test-images/landing_access_pass.png">
     </details>
 
-## Media
+## Media <a name="media"></a>
 
 Below are the links to all images used for the brochure and throughout the website.
 
@@ -352,7 +384,7 @@ Below are the links to all images used for the brochure and throughout the websi
  * https://pixabay.com/photos/beach-resort-jetty-pier-boardwalk-666122
  * https://pixabay.com/photos/beach-ocean-waves-coast-shore-5531919/
 
-## Credits
+## Credits <a name="credit"></a>
 
 * w3schools.com:
     * Flip Card: Code used from w3school.com website and changed to suit the needs of Get2Go Holidays destination page.
