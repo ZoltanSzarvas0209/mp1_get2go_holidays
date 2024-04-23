@@ -163,7 +163,7 @@ Wireframes below were the original design, however the final product do feature 
 </details>
 
 <details><summary>Landing Page</summary>
-<img src="assets/images/Landing PAge.png">
+<img src="assets/images/landing_page.png">
 </details>
 
 ### Deployment <a name="deployment"></a>
@@ -194,7 +194,7 @@ To Deploy a project from your github repesatory, foloow the steps below.
         2. area hidden atribute not allowed - same error present in all pages and removed
 
     - <details><summary> Screenshot of result after fix</summary>
-         <img src="assets/test-images/Home_html_pass.png">
+         <img src="assets/test-images/home_html_pass.png">
         </details>
 
 2. destination.html:
@@ -348,11 +348,11 @@ Issues Found:
 - Result after fixes:
 
 1.  <details><summary> HOME</summary>
-    <img src="assets/test-images/Home_access_pass.png">
+    <img src="assets/test-images/home_access_pass.png">
     </details>
 
 2.  <details><summary> DESTINATIONS</summary>
-    <img src="assets/test-images/Destination_access_pass.png">
+    <img src="assets/test-images/destination_access_pass.png">
     </details>
 
     - The result here is 94% and it is due to contrast issue with background picture. As a travel agency website many background pictures in flip cards are based on destination and therefore I found this "issue" acceptable.
