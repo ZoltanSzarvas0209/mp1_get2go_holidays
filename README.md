@@ -39,6 +39,7 @@ The choosen project is a travel agent's website to advertise and generate leads 
 * additional resources
     * FontAwesome: fonhttps://fontawesome.com/search?o=r&m=free&s=solid  - used for icons throughout the site
     * ChatGPT: https://chat.openai.com/   - used to create content for the brochure
+    * Google Fonts: https://fonts.google.com/selection/embed - used Open sans font family
 
 ### Objective
 
@@ -120,7 +121,7 @@ Viabaility Chart: Insert table here ( viability vs importance )
 
 
 
-    * Font: I choose the font family Arial, Helvetica, sans-serif, generic html font-family that I found worked well with the site.
+    * Font: I choose the font family Open-sans, sans-serif, as I found it suited the site well with san-serif in place as the fall back option.
 
 * Interaction Design:
 

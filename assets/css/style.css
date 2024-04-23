@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&display=swap');
 /*-----------------------------General Classes---*/
 
 .bg-color {
@@ -13,13 +13,16 @@
 
 .main-headers {
     font-size: 50px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open-sans, sans-serif;
     color: #b10303;
     letter-spacing: 4px;
     text-transform: uppercase;
     text-align:-webkit-center;
     padding: 50px;
+}
+
+.main-headers i {
+    padding: 20px;
 }
 
 @media (max-width:576px) {
@@ -57,8 +60,7 @@ header {
     max-width: fit-content;
     text-transform: uppercase;
     margin-top: 20px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open-sans, sans-serif;
     color: #FFFFFF;
 }
 
@@ -98,6 +100,13 @@ header {
     }
 }
 
+/* media query added to fix screen size issue where navbar overstreched the screen */
+@media screen and (min-width: 981px) and (max-width: 1205px) {
+    #Dbrochure {
+        display: none;
+    }
+}
+
 .nav-link:hover {
     color: #c5b720;
 }
@@ -113,8 +122,9 @@ header {
     height: 120px;
     color: #faf6f6ce;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open-sans, sans-serif;
     letter-spacing: 2px;
+    padding: 10px;
 }
 
 .footer-common p a {
@@ -134,7 +144,7 @@ header {
     color: #c5b720;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
 
     .md-footer-d {
         display: flex;
@@ -197,7 +207,7 @@ header {
     text-transform: uppercase;
     padding: 20px;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open-sans, sans-serif;
 }
 
 .valueitem i {
@@ -325,8 +335,7 @@ header {
     transform: rotateY(180deg);
     border-radius: 50%;
     padding-top: 25%;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open-sans, sans-serif;
   }
 
   @media (min-width: 1250px) {
@@ -369,7 +378,7 @@ header {
         border-color: #b10303;
         border-radius: 10%;
         background-color: rgba(255,0,0,0.4);
-        font-family: 'Open Sans', sans-serif;
+        font-family: Open-sans, sans-serif;
     }
 
     @media (max-width: 576px) {
@@ -458,13 +467,11 @@ header {
     .message-container {
         color: #faf6f6ce;
         font-size:20px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Open-sans, sans-serif;
         text-align:center;
     }
 
     .message-container h2 {
         font-size: 36px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Open-sans, sans-serif;
     }
