@@ -1,7 +1,6 @@
+![logo](assets/images/get2goholidays_logo.png)
 
 ![Mockup](assets/feature-images/am_i_responsive.png)
-
-![logo](assets/images/get2goholidays_logo.png)
 
 ## Introduction
 
@@ -22,7 +21,7 @@ It is a static website developed using html, css and bootstrap. The content of t
  3. [ Objective ](#objective)  
  4. [ Research ](#research) 
  5. [ Target Audience ](#audience)  
- 6. [ User Stories ](#user)  git push
+ 6. [ User Stories ](#user)
  7. [ Structure and Design ](#design)
      - [ Layout ](#layout)
      - [ Features ](#features)
