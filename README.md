@@ -22,7 +22,7 @@ It is a static website developed using html, css and bootstrap. The content of t
  3. [ Objective ](#objective)  
  4. [ Research ](#research) 
  5. [ Target Audience ](#audience)  
- 6. [ User Stories ](#user)  
+ 6. [ User Stories ](#user)  git push
  7. [ Structure and Design ](#design)
      - [ Layout ](#layout)
      - [ Features ](#features)
@@ -555,4 +555,15 @@ Below are the links to all images used for the brochure and throughout the websi
                     <span class="sr-only">Next</span>
                 </button>
                 </div>
+
+## Acknowledgement
+
+My CodeInstitute Mentor: Alan Bushell 
+
+For all the support and guidence given during the development of this Project
+
+
+Fellow Ex-Student: Emma Hewson
+
+Her previous Projects have inspired some aspects of my own, specifically helped a lot in developing the README file.
             
