@@ -11,7 +11,7 @@ Get2Go Holidays is a made up travel agent website. It was created for educationa
 
 It is a static website developed using html, css and bootstrap. The content of the site is limited for simplicity , however fully scalable for future extensions.
 
-## **[Live site](https://zoltanszarvas0209.github.io/mp1_get2go_holidays/)**
+## **[GET2GO Holidays Live Site](https://zoltanszarvas0209.github.io/mp1_get2go_holidays/)**
 
 ## **[Repository](https://github.com/ZoltanSzarvas0209/mp1_get2go_holidays.git)**
 
@@ -34,6 +34,7 @@ It is a static website developed using html, css and bootstrap. The content of t
      - [ Testing ](#alltesting)
           - [ Pre-deployment ](#predeployment)
           - [ post-deployment ](#postdeployment)
+     - [ User Testing ](#usertest)
      - [ Accessibility ](#access)
  11. [ Media ](#media)
  12. [ Credits ](#credit)  
@@ -41,7 +42,7 @@ It is a static website developed using html, css and bootstrap. The content of t
 
 ## UX <a name="ux"></a>
 
-The metholody of UXD was used in the planning and development of the project. 
+The methology of UXD was used in the planning and development of the project. 
 The choosen project is a travel agent's website to advertise and generate leads for bookings as part of a franchise. As code institute's first milestone project, an at least 3 page static website was required.
 
 ### Technologies and Tools Used <a name="technologies"></a>
@@ -356,6 +357,19 @@ Solutions:
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
 |-------------|-----------------|-----------------|-------------|
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
+
+#### User Testing <a name="usertest"></a>
+
+- As a final product test, several colegues,family and friends were asked to visit the site and test all features and provide feedback from a user point of view.
+
+| **No Users** | **Features** | **Results** |
+|--|--|--|
+| 8 | 12 | 100% |
+
+1. The matemathical results came back at 100%.
+2. Generic feedback:
+    a. Call icon in header is not needed in desktops in most cases ( however the point of company computers were brought up and decided to keep the feature)
+    b. Range bar has no number display informing the user at what amount the bar is. ( this is being addressed as a future improvement due to the fact that the use of javascript is required to achive this and is not a requirement of the Project)
 
 #### Accesibility <a name="access"></a>
 
