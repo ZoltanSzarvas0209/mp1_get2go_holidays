@@ -24,8 +24,12 @@ It is a static website developed using html, css and bootstrap. The content of t
  5. [ Target Audience ](#audience)  
  6. [ User Stories ](#user)  
  7. [ Structure and Design ](#design)
- 8. [ Deployment ](#deployment)
- 9. [ Testing/Bugs/Fixes ](#testing)
+     - [ Layout ](#layout)
+     - [ Features ](#features)
+     - [ Design Choices ](#designchoice)
+     - [ Wireframes ](#wireframes)
+ 9. [ Deployment ](#deployment)
+ 10. [ Testing/Bugs/Fixes ](#testing)
      - [ HTML and CSS Validation](#htmlandcss)
      - [ Testing ](#alltesting)
           - [ Pre-deployment ](#predeployment)
@@ -107,32 +111,62 @@ Get2Go holidays is thought to be an independent agency/agents and based on the r
 
 ### Structure and Design <a name="design"></a>
 
-* Layout: The general layout of the site created using bootstrap and breaks into 3 section. A header, a footer and a main section on each page. The header and footer is designed to be straight forward with logo and navigation while the footer is to present a number of alternative way to see the agency through social links and include action button and "other" informtion such as terms and conditions. Both header and footer are the same throughout the site to ensure consistency.
+* Layout: <a name="layout"></a>  The general layout of the site created using bootstrap and breaks into 3 section. A header, a footer and a main section on each page. The header and footer is designed to be straight forward with logo and navigation while the footer is to present a number of alternative way to see the agency through social links and include action button and "other" informtion such as terms and conditions. Both header and footer are the same throughout the site to ensure consistency.
 
-* Features:
+* Features: <a name="features"></a>
 
     * Header: The header contains a company logo , a call to action button and the main navigation bar.
+      <details><summary>Screenshot of header</summary>
+          <img src="assets/features/header.png">
+          </details>
 
         * Logo : responsive image of the logo of the company.
         * Contact : call to action implemented with clickable phone number.
         * Navbar : Main navigation feature of the whole site allowing users to easily move around as desired.
 
-    * Footer: Main feature in this section is the clicable social media icons providing an alternative way to see and contact the company. The footer also home for a terms and conditions link( pop up widow with details) and a button to download brochure.
+    * Footer: Main feature in this section is the clicable social media icons providing an alternative way to see and contact the company. An e-mail icon can also be found that will take the user to send an e-mail to Get2Go Holidays. The footer also home for a terms and conditions as weel as the download brochure link( both downloaded as a word.doc.
+      <details><summary>Screenshot of footer</summary>
+          <img src="assets/features/footer.png">
+          </details>
 
     * Main Page: index.html - present an overall look of the site, showcasing a hero image with eye catching holiday pictures and call to action buttons( see deals), which also provide an alternative way( other than nav bar) to navigate to the holidays.html page. The main page also includes a section of reviews and reasosns to book with us. 
         * Carousel: a slideshow of the main holiday categories, catch users attention quickly.
+         <details><summary>Screenshot of carousel</summary>
+          <img src="assets/features/carousel.png">
+          </details>
         * Testimonials: a display of feedback from previous customers.
+        <details><summary>Screenshot of testimonials</summary>
+          <img src="assets/features/testimonials.png">
+          </details>
         * Why book with us: a selection of feature the company offers for peace of mind.
+        <details><summary>Screenshot of header</summary>
+          <img src="assets/features/whybookwithus.png">
+          </details>
 
-    * Deals Page: presents main holiday categories for user such as multi-destination or bucket-list holidays with large clickable pictures/icons that navigates the user to the second section of the page where all actual deals are avaialble. All deals containers include a see deal button that has a pop-up window with the holiday details.
+    * Deals Page: presents main holiday categories for user such as multi-destination or bucket-list holidays with large clickable pictures/icons that navigates the user to the second section of the page where all actual deals are avaialble.All holiday types section includes a button to the relating section for ease of navigation. An up arrow indicating the user to move up is also added( decision made after testing and added at the end of the project due testing revaling issue with extended scrolling on small screens.
+      <details><summary>Screenshot of holiday types</summary>
+          <img src="assets/features/holidaytypes.png">
+          </details>
+          <details><summary>Screenshot of holidaysections.png</summary>
+          <img src="assets/features/holidaysections.png">
+          </details>
+          <details><summary>Screenshot of up arrow for navigation</summary>
+          <img src="assets/features/navigationarrow.png">
+          </details>
 
-    * Enquiry Page: The enquiry page's main section have a form , where users can submit holiday requests/questions based on prefered dates, destination and budget. Upon submitting a form a thank you landing page is presented with navigation to return to main site.
+    * Enquiry Page: The enquiry page's main section have a form , where users can submit holiday requests/questions based on prefered destinations and budget. Upon submitting a form a thank you landing page is presented with navigation to return to main site.
+      <details><summary>Screenshot of form</summary>
+          <img src="assets/features/form.png">
+          </details>
     
     * Landing Page: A thank you page letting customers knnow that their enquiry form had been successfully submitted.
+      <details><summary>Screenshot of thank you page</summary>
+          <img src="assets/features/thankyou.png">
+          </details>
  
     * Download Brochure: clickable link to download a brochure with all existing deals. The feature presented in multiple location, namely once in the navigation bar and once in the footer area.
 
-* Design Choices:
+* Design Choices: <a name="designchoice"></a>
 
     * Color: I chose vibrant summer colors to implement a "good feel" vibe when visiting the page, the approach for these choices were guided by the original website(no longer exist, was provided by franchise at the time) colors and logo.
 
@@ -142,11 +176,7 @@ Get2Go holidays is thought to be an independent agency/agents and based on the r
 
     * Font: I choose the font family Open-sans, sans-serif, as I found it suited the site well with san-serif in place as the fall back option.
 
-* Interaction Design:
-
-work flow graph/ image added here
-
-* Wireframes:
+* Wireframes: <a name="wireframes"></a>
 
 Wireframes below were the original design, however the final product do feature some minor difference as alternative solutions were choosen and additional features implemented during development.
 
