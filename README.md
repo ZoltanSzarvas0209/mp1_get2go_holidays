@@ -22,7 +22,7 @@ It is a static website developed using html, css and bootstrap. The content of t
  3. [ Objective ](#objective)  
  4. [ Research ](#research) 
  5. [ Target Audience ](#audience)  
- 6. [ User Stories ](#user)  git push
+ 6. [ User Stories ](#user)
  7. [ Structure and Design ](#design)
      - [ Layout ](#layout)
      - [ Features ](#features)
@@ -97,17 +97,44 @@ Get2Go holidays is thought to be an independent agency/agents and based on the r
 * User story 1:
     - As a customer at a fantasising/planning stage of a Holiday:
 
-        1. I am looking for inspiration of where to go
+        1. I am looking for inspiration of where to go.
+        <details><summary>User Story Screenshot</summary>
+        <img src="assets/test-images/userstory1.1.png">
+        </details>
         2. I am looking for a peace of mind about holiday security/reliability
+        <details><summary>User Story Screenshot</summary>
+        <img src="assets/test-images/usertory1.2.png">
+        </details>
         3. I want to see feedback from previous customers to have a better idea what to expect.
+        <details><summary>User Story Screenshot</summary>
+        <img src="assets/test-images/userstory1.3.png">
+        </details>
         4. I want to see a range of prices so I can make an informed decision before I progress further.
+        <details><summary>User Story Screenshot</summary>
+        <img src="assets/test-images/userstory1.4.png">
+        </details>
 
 * User story 2:
     - As a customer ready to pick a package/book a Holiday:
 
         1. I am looking for a good selection of destinations with guide prices
+        <details><summary></summary>User Story Screenshot
+        <img src="assets/test-images/userstory2.1.png">
+        </details>
         2. I am looking to be able to submit my specific requests and get my quotes.
+        <details><summary>User Story Screenshot</summary>
+        <img src="assets/test-images/userstory2.2.png">
+        </details>
         3. I want to see options to get in touch should I wish to progress or my requirements have changed.
+        <details><summary>User Story Screenshot</summary>
+        <img src="assets/test-images/userstory2.3.png">
+        </details>
+        <details><summary>User Story Screenshot</summary>
+        <img src="assets/test-images/userstory2.3b.png">
+        </details>
+        <details><summary>User Story Screenshot</summary>
+        <img src="assets/test-images/userstory2.3c.png">
+        </details>
 
 
 ### Structure and Design <a name="design"></a>
@@ -300,7 +327,7 @@ To Deploy a project from your github repesatory, foloow the steps below.
 
 | **Feature** | **Test Method** | **Expectation** | **Outcome** |
 |--|--|--|--|
-| links | click on each icon/link | link to pages and download brochure  | FAIL 
+| links | click on each icon/link | link to pages and download brochure  | PASS 
 | Responsivness | Developer tools: 320px-mobile /768px-tablet / 1440px-desktop | fully responsive layout | PASS |
 
 
