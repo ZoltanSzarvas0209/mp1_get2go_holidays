@@ -378,70 +378,70 @@ Solutions:
 ####  Testing User Stories <a name="testinguserstories"></a>
 
 * User story 1:
-    - As a customer at a fantasising/planning stage of a Holiday:
+1. As a customer at a fantasising/planning stage of a Holiday:
 
-        1.  I am looking for inspiration of where to go.
+    1.  I am looking for inspiration of where to go.
 
-            - Arriving to the site, user is immediatelly presented with the Header/Navigation bar with the option Destinations.
-            - Landing on the main page, directly under the header the user is presented with a slideshow , showcasing images of potential destinations.
-            - Going further when a user clicks on destinations, a new page "destinations will be presented" with further sub-optins to browse the selection. 
+        -  Arriving to the site, user is immediatelly presented with the Header/Navigation bar with the option Destinations.
+        -  Landing on the main page, directly under the header the user is presented with a slideshow , showcasing images of potential destinations.
+        -  Going further when a user clicks on destinations, a new page "destinations will be presented" with further sub-optins to browse the selection. 
 
         <details><summary>User Story Screenshot</summary>
         <img src="assets/test-images/userstory1.1.png">
         </details>
-        2. I am looking for a peace of mind about holiday security/reliability
+    2. I am looking for a peace of mind about holiday security/reliability
 
-            - On the main page, when the user scrolls down, a "why book with us?" section is presented with the warranties/benefits the company offers.
+        - On the main page, when the user scrolls down, a "why book with us?" section is presented with the warranties/benefits the company offers.
 
         <details><summary>User Story Screenshot</summary>
         <img src="assets/test-images/usertory1.2.png">
         </details>
-        3. I want to see feedback from previous customers to have a better idea what to expect.
+    3. I want to see feedback from previous customers to have a better idea what to expect.
 
-            - On the main page, when the user scrolls down, a "Testimonials" section is presented, showcasing a selection of feedbacks from previous customers.
+        - On the main page, when the user scrolls down, a "Testimonials" section is presented, showcasing a selection of feedbacks from previous customers.
 
         <details><summary>User Story Screenshot</summary>
         <img src="assets/test-images/userstory1.3.png">
         </details>
-        4. I want to see a range of prices so I can make an informed decision before I progress further.
+    4. I want to see a range of prices so I can make an informed decision before I progress further.
 
-            - Following the steps of User Story 1.1 the user is at the destination page.
-            - Here there are various ways to browse the deals. 
-                - A user can scroll down and hover over the images to be presented with the deals.
-                - A user can click on the types of holidays at the top of the page to be directed to the selected holiday type. Here hovering over the images will reveal the deals.
+        - Following the steps of User Story 1.1 the user is at the destination page.
+        - Here there are various ways to browse the deals. 
+            - A user can scroll down and hover over the images to be presented with the deals.
+            - A user can click on the types of holidays at the top of the page to be directed to the selected holiday type. Here hovering over the images will reveal the deals.
 
         <details><summary>User Story Screenshot</summary>
         <img src="assets/test-images/userstory1.4.png">
         </details>
 
 * User story 2:
-    - As a customer ready to pick a package/book a Holiday:
+2. As a customer ready to pick a package/book a Holiday:
+    
+    1. I am looking for a good selection of destinations with guide prices
 
-        1. I am looking for a good selection of destinations with guide prices
-
-            - Arriving to the site, using the navigation bar provided, a user can click on the destinations item.
-            - Landing on the destinations page will immediately present the 3 main holiday-type options( sub-types). 
-            - Each option is presented with a see deals button that will direct the user to the relevant section.
-            - Once a section is selected, prices and details are revealed by hoovering over the images.
+        - Arriving to the site, using the navigation bar provided, a user can click on the destinations item.
+        - Landing on the destinations page will immediately present the 3 main holiday-type options( sub-types). 
+        - Each option is presented with a see deals button that will direct the user to the relevant section.
+        - Once a section is selected, prices and details are revealed by hoovering over the images.
 
         <details><summary></summary>User Story Screenshot
         <img src="assets/test-images/userstory2.1.png">
         </details>
-        2. I am looking to be able to submit my specific requests and get my quotes.
+    2. I am looking to be able to submit my specific requests and get my quotes.
 
-            - Once a user is commited to a deal adn ready to get personalised quotes, the enquiry page can be used.
-            - Enquiry page is accessible from the main navigation bar.
-            - Landing on the page a contact from is presented to the user.
-            - To submit the request the form must be submitted. The form is safeguarded by guidence provided to each section with dropdown menu presenting the holiday options, name sections will provide hints if the user makes a mistake and required message presented should the user fail to fill in mandatory fields.
+        - Once a user is commited to a deal adn ready to get personalised quotes, the enquiry page can be used.
+        - Enquiry page is accessible from the main navigation bar.
+        - Landing on the page a contact from is presented to the user.
+        - To submit the request the form must be submitted. The form is safeguarded by guidence provided to each section with dropdown menu presenting the holiday options, name sections will provide hints if the user makes a mistake and required message presented should the user fail to fill in mandatory fields.
 
         <details><summary>User Story Screenshot</summary>
         <img src="assets/test-images/userstory2.2.png">
         </details>
-        3. I want to see options to get in touch should I wish to progress or my requirements have changed.
+    3. I want to see options to get in touch should I wish to progress or my requirements have changed.
 
-            - A user arriving to the site will first be presented with the header. The header includes a call us section with the companies phone nummber.
-            - The footer on each page also contains a list of icons for the social media sites of the webpage providing another way yo get in touch.
-            - The enquiry page also displays a Contact Info section for those who need to get in touch. This feature however only available on desktops.
+        - A user arriving to the site will first be presented with the header. The header includes a call us section with the companies phone nummber.
+        - The footer on each page also contains a list of icons for the social media sites of the webpage providing another way yo get in touch.
+        - The enquiry page also displays a Contact Info section for those who need to get in touch. This feature however only available on desktops.
             
         <details><summary>User Story Screenshot</summary>
         <img src="assets/test-images/userstory2.3.png">
